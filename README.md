@@ -1,6 +1,7 @@
 # IOC Enricher
 
 A simple Python tool to enrich IPs or domains using the [VirusTotal API](https://virustotal.com).
+**Status:** Week 1 MVP — functional core features, more coming soon 🚀
 
 ## 🚀 Features
 - Enrich IPs or domains for malicious reputation
