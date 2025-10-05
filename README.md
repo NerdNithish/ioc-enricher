@@ -45,8 +45,6 @@ pip install -r requirements.txt
 VT_API_KEY=your_api_key_here
 ```
 
-> **Note:** `.env` is ignored by Git and never pushed — your API key stays private.
-
 ---
 
 ## 🖥️ Usage
