@@ -43,3 +43,16 @@ python main.py --file sample_iocs.txt
 ## 📂 Output
 
 - Results are saved to `enriched_iocs.csv` in the project folder.
+
+## 📜 License
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+
+## 🗺️ Roadmap
+- [ ] Add support for URL enrichment
+- [ ] Handle both IPs **and** domains in file input
+- [ ] Parallel requests with rate-limit handling
+- [ ] Dockerfile for containerized usage
+
+## 🤝 Contributing
+Pull requests and issues are welcome!  
+For major changes, please open an issue first to discuss.
