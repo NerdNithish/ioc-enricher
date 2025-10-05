@@ -1,3 +1,17 @@
+```
+# Sample IOCs for testing batch mode
+# Lines starting with '#' are comments and ignored by the script
+
+# Public DNS resolvers (safe examples)
 8.8.8.8
 1.1.1.1
+9.9.9.9
+
+# Popular domains (safe examples)
+example.com
+openai.com
+virustotal.com
+
+# Random IP (might show more interesting enrichment data)
 208.67.222.222
+```
