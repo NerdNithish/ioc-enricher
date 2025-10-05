@@ -8,21 +8,35 @@ A simple Python tool to enrich IPs or domains using the [VirusTotal API](https:/
 - Outputs results to a CSV
 
 ## 🛠️ Installation
+
+Clone the repo and install dependencies:
+
 ```bash
 git clone https://github.com/NerdNithish/ioc-enricher.git
 cd ioc-enricher
 pip install -r requirements.txt
+```
 
-⚙️ Setup
+## ⚙️ Setup
 
-Create a .env file in the project directory:
+Create a `.env` file in the project directory with your VirusTotal API key:
 
+```
 VT_API_KEY=your_real_api_key_here
+```
 
-▶️ Usage
+Make sure `.env` is **not committed** (it’s in `.gitignore`).
 
-Example commands:
+## ▶️ Usage
 
+Run the script with examples:
+
+```bash
 python main.py --ip 8.8.8.8
 python main.py --domain example.com
 python main.py --file sample_iocs.txt
+```
+
+## 📂 Output
+
+- Results are saved to `enriched_iocs.csv` in the project folder.
