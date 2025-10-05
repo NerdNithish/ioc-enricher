@@ -9,7 +9,7 @@ A simple Python tool to enrich IPs or domains using the [VirusTotal API](https:/
 
 ## 🛠️ Installation
 ```bash
-git clone https://github.com/your-username/ioc-enricher.git
+git clone https://github.com/NerdNithish/ioc-enricher.git
 cd ioc-enricher
 pip install -r requirements.txt
 
