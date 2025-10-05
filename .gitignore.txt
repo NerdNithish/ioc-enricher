@@ -1,0 +1,4 @@
+# Ignore private and generated files
+.env
+__pycache__/
+*.csv
