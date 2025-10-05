@@ -3,6 +3,7 @@
 A simple Python tool to enrich IPs or domains using the [VirusTotal API](https://virustotal.com).
 
 **Status:** Week 1 MVP — functional core features, more coming soon 🚀
+
 Built as a learning project + practical wedge for threat intelligence automation.
 > This is an **open-source MVP** — contributions, issues, and feedback are welcome!
 
